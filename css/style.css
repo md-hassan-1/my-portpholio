@@ -549,6 +549,7 @@ h3.my-profasion .typing{
 }
 .service .container{
     padding-bottom: 40px;
+  
 }
 .row-13{
     display: flex;
@@ -613,6 +614,104 @@ h3.my-profasion .typing{
 .portpholio .portpholio-heading h2{
     font-weight: 5000;
     color: var(--text-black-700);
+}
+.row-16{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.portpholio .container{
+    padding-bottom: 40px;
+}
+.portpholio .portpholio-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 40px;
+}
+.portpholio .portpholio-item .portpholio-item-inner{
+    border: 6px solid var(--bg-black-900);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.portpholio-item-inner .portpholio-item-inner{
+    width: 100%;
+}
+.portpholio-heading{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+
+
+}
+.contact-tittle{
+    color: var(--color-skin);
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+ 
+   
+
+
+}
+.contact-sub-tittle{
+    color: var(--text-black-700);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+
+} 
+.row-18{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cotact-info{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.cotact-info .icon {
+    display: inline-block;
+}
+.cotact-info .icon i{
+    color: var(--color-skin);
+    font-size: 24px;
+
+}
+.cotact-info  h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+.cotact-info p{
+    font-size: 16px;
+    line-height: 35px;
+    font-family: 400;
+    color: var(--text-black-700);
+}
+.contact .contact-form{
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: red; */
+}
+.contact .contact-form  .col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+    background-color: red;
+}
+.row-19{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.row-20{
+    display: flex;
+    /* flex-wrap: wrap; */
+
 }
 
 
