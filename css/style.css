@@ -49,11 +49,11 @@ ul{
 
 }
 .main-container{
-    padding-left:270px ;
+    /* padding-left:270px ; */
 }
-/* .main-contant{
-    padding-left:270px ; */
-/* } */
+ .main-contant{ 
+    padding-left:270px ; 
+ } 
  .hidden{
     /* display: none !important;  */
    
@@ -71,6 +71,7 @@ ul{
 }
 .row-1{
     display: flex;
+    flex-wrap:wrap ;
 }
 .row-6{
     display: flex;
@@ -82,19 +83,19 @@ ul{
 }
 .row-5{
     display: flex;
-   
- 
-
+    flex-wrap: wrap;
 }
+
 .row-4{
     display: flex; 
+    flex-wrap: wrap;
      margin-left: -15px;
     margin-right: -15px; 
  
 
 }
 .section .container{
-    padding-top:60px ;
+    padding-top:85px ;
     padding-bottom:70px;
    
    
@@ -270,8 +271,8 @@ ul{
 
 }
  .home .home-imge {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 40%;
+    max-width: 40%;
     text-align: center;
     position: relative;
 
@@ -284,7 +285,7 @@ ul{
     height: 80px;
     border-bottom:  10px solid   var(--color-skin);
     border-right: 10px solid var(--color-skin);
-    right: 120px;
+    right: 34px;
     bottom: -40px;
 
 }
@@ -296,14 +297,14 @@ ul{
     height: 80px;
     border-top:  10px solid   var(--color-skin);
     border-left: 10px solid var(--color-skin);
-    left: 120px;
+    left: 34px;
     top: -40px;
 
 }
 
 .home .home-info{
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 60%;
+    max-width: 60%;
 
 
 }  
@@ -474,6 +475,7 @@ h3.my-profasion .typing{
 }
 .row-9{
     display: flex;
+    flex-wrap: wrap;
 }
 .about .about-content h3.tittle{
     font-size: 24px;
@@ -702,20 +704,113 @@ h3.my-profasion .typing{
 .contact .contact-form  .col-6{
     flex: 0 0 50%;
     max-width: 50%;
-    background-color: red;
+    /* background-color: red; */
 }
 .row-19{
     display: flex;
     /* flex-wrap: wrap; */
 }
 .row-20{
-    display: flex;
-    /* flex-wrap: wrap; */
+    display: flex; 
+    flex-wrap: wrap;
 
+}
+.contact .contact-form .col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: green; */
+}
+.contact .contact-form .form-item{
+    margin-bottom: 40px;
+}
+.contact-form .form-item .form-control{
+    width: 100%;
+    height: 50px;
+    padding: 10px 25px;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.contact-form .form-item .form-control:focus{
+    box-shadow: 0 0 20px rgba(48,46,77, 0.15);
+}
+.contact-form .form-item textarea.form-control{
+    height: 140px;
 }
 
 
+.contact .contact-form .btn{
+    height: 50px;
+    padding: 0 50px;
 
+}
+@media  (max-width:1199px){
+
+    .aside{
+    left: -270px;
+    }
+    .main-contant{
+       padding-left:  0px ;
+    }
+    .about .about-content .parsonal-info .info-item p span{
+        display: block;
+        margin-left:0 ;
+
+    }
+    
+}
+@media  (max-width:991px){
+    .home .home-imge {
+        display: none;
+    }
+
+
+     
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .service .service-item,
+    .portpholio .portpholio-item,
+    .contact .cotact-info
+
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+
+        
+    }
+
+}
+@media (max-width:767px){
+    .contact .contact-form .col-6,
+    .portpholio .portpholio-item,
+   
+    .service .service-item,
+    .portpholio .portpholio-item,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about  .about-content .skils,
+    .about .about-content .parsonal-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    .portpholio-image img{
+        width: 100% !important;
+    }
+}
+@media (max-width:462px){
+    .contact .cotact-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+}
 
 
 
