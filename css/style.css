@@ -154,12 +154,13 @@ ul{
     border-radius: 30px;
     margin: 15px 0;
     border: none;
-    transition: all ;
-
-
-
+    transition: all 0.3s ease ;
 
 }
+.btn:hover{
+    transform: scale(1.1);
+}
+ 
 .aside .logo{
     position: absolute;
     top: 50px;
