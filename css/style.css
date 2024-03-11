@@ -179,6 +179,7 @@ ul{
 .aside .logo a span{
     font-family: 'Clicker script', cursive ;
     font-size: 40px;
+    color: var(--color-skin)
 }
 .aside .logo a::before{
     content: '';
@@ -274,6 +275,7 @@ ul{
 .home .home-imge img{
     height: 400px;
     width: 300px;
+    object-fit: cover;
 }
 .home{
     height: 100vh;
@@ -825,6 +827,11 @@ h4.timeline-tittle{
         max-width: 100%;
 
     }
+    
+    
+
+
+    
 }
 
 
